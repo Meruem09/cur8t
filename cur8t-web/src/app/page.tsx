@@ -111,6 +111,11 @@ const Home = () => {
           />
           <div className="flex items-center space-x-2">
             {isSignedIn ? (
+              <Link href="https://chromewebstore.google.com/detail/nmimopllfhdfejjajepepllgdpkglnnj?utm_source=item-share-cb">
+                <NavbarButton variant="primary" as="button">
+                  Get Extention
+                </NavbarButton>
+              </Link>
               <Link href="/dashboard?item=Overview">
                 <NavbarButton variant="primary" as="button">
                   Dashboard
